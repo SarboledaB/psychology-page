@@ -12,7 +12,7 @@ function ContactInfo() {
           </div>
           <div className={styles.cardContent}>
             <h3 className={styles.cardTitle}>Teléfono</h3>
-            <p className={styles.cardText}>+34 600 123 456</p>
+            <p className={styles.cardText}>+57 314 798 5604</p>
           </div>
         </div>
 
@@ -25,7 +25,7 @@ function ContactInfo() {
           </div>
           <div className={styles.cardContent}>
             <h3 className={styles.cardTitle}>Email</h3>
-            <p className={styles.cardText}>info@tupsicologa.com</p>
+            <p className={styles.cardText}>psicologamarianaecheverri@gmail.com</p>
           </div>
         </div>
 

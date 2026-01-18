@@ -38,7 +38,7 @@ function Hero() {
             </div>
             
             <p className={styles.intro}>
-              <strong>Hola, soy Mariana Echeverri,</strong> psicóloga colegiada especializada en terapia cognitivo-conductual y en el apoyo emocional.
+              <strong>Hola, soy Mariana Echeverri,</strong> psicóloga especializada en terapia cognitivo-conductual.
             </p>
             
             <p className={styles.description}>
