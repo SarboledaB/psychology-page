@@ -1,0 +1,46 @@
+@import './variables';
+@import './mixins';
+
+// Global Reset and Base Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: $warm-white;
+  color: $text-dark;
+  font-family: $font-primary;
+  line-height: 1.6;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+// Typography Styles
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-script;
+  color: $purple-text;
+  font-weight: 400;
+}
+
+p {
+  font-family: $font-primary;
+  color: $text-dark;
+  line-height: 1.7;
+}

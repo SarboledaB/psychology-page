@@ -1,0 +1,11 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.header {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: none;
+  display: block;
+}

@@ -1,0 +1,233 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.services {
+  padding: 4rem 1rem;
+  background: linear-gradient(180deg, $warm-white 0%, $lilac-light 100%);
+  position: relative;
+  overflow: hidden;
+
+  @include mobile {
+    padding: 3rem 1rem;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 0 3rem 0;
+  color: $purple-text;
+  font-family: $font-script;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 1px;
+    background: $purple-text;
+
+    @include tablet {
+      width: 50px;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &::before {
+    right: calc(100% + 20px);
+  }
+
+  &::after {
+    left: calc(100% + 20px);
+  }
+
+  @include mobile {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.serviceCard {
+  background: white;
+  border-radius: 25px;
+  padding: 2rem 1.5rem;
+  @include card-shadow;
+  @include smooth-transition(all, 0.3s);
+  text-align: center;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(107, 76, 154, 0.25);
+    background: linear-gradient(135deg, rgba(212, 241, 238, 0.3), rgba(232, 223, 245, 0.3));
+  }
+
+  @include mobile {
+    padding: 1.5rem 1rem;
+  }
+}
+
+.illustrationBox {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 1.5rem;
+  filter: drop-shadow(0 5px 15px rgba(107, 76, 154, 0.1));
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+
+  @include mobile {
+    max-width: 250px;
+  }
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  color: $purple-text;
+  font-family: $font-primary;
+  font-weight: 600;
+}
+
+.cardDescription {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: $text-dark;
+  margin: 0;
+}
+
+.decorativeElements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.floatingLeaf {
+  position: absolute;
+  width: 80px;
+  height: 100px;
+  background: $mint-pastel;
+  border-radius: 50% 0 50% 0;
+  opacity: 0.2;
+  animation: leafFloat 35s ease-in-out infinite;
+
+  &:nth-child(1) {
+    top: 10%;
+    right: 5%;
+    transform: rotate(30deg);
+    animation-delay: 0s;
+  }
+
+  &:nth-child(2) {
+    bottom: 20%;
+    left: 8%;
+    transform: rotate(-45deg);
+    animation-delay: 15s;
+    background: $lilac-pastel;
+    width: 70px;
+    height: 90px;
+  }
+
+  &:nth-child(3) {
+    top: 40%;
+    left: 15%;
+    transform: rotate(60deg);
+    animation-delay: 8s;
+    background: $mint-light;
+    width: 60px;
+    height: 80px;
+    opacity: 0.18;
+  }
+
+  &:nth-child(4) {
+    top: 65%;
+    right: 12%;
+    transform: rotate(-70deg);
+    animation-delay: 22s;
+    background: $lilac-light;
+    width: 90px;
+    height: 110px;
+    opacity: 0.23;
+  }
+
+  &:nth-child(5) {
+    bottom: 10%;
+    left: 40%;
+    transform: rotate(100deg);
+    animation-delay: 28s;
+    background: $mint-pastel;
+    width: 75px;
+    height: 95px;
+    opacity: 0.16;
+  }
+
+  &:nth-child(6) {
+    top: 25%;
+    right: 30%;
+    transform: rotate(-120deg);
+    animation-delay: 18s;
+    background: $lilac-pastel;
+    width: 65px;
+    height: 85px;
+    opacity: 0.21;
+  }
+}
+
+
+@keyframes leafFloat {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg) scale(1);
+    opacity: 0.18;
+  }
+  15% {
+    transform: translateY(-40px) translateX(40px) rotate(18deg) scale(0.98);
+    opacity: 0.23;
+  }
+  35% {
+    transform: translateY(-120px) translateX(-60px) rotate(-22deg) scale(1.05);
+    opacity: 0.28;
+  }
+  55% {
+    transform: translateY(-200px) translateX(80px) rotate(25deg) scale(0.95);
+    opacity: 0.22;
+  }
+  75% {
+    transform: translateY(-280px) translateX(-70px) rotate(-30deg) scale(1.08);
+    opacity: 0.19;
+  }
+  100% {
+    transform: translateY(-360px) translateX(0) rotate(0deg) scale(1);
+    opacity: 0.12;
+  }
+}

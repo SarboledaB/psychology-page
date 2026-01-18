@@ -1,0 +1,47 @@
+// Responsive Mixins
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tablet + 1px}) {
+    @content;
+  }
+}
+
+// Animation Mixins
+@mixin smooth-transition($properties: all, $duration: 0.3s) {
+  transition: $properties $duration ease;
+}
+
+@mixin float-animation($name, $distance: 20px, $duration: 30s) {
+  animation: $name $duration ease-in-out infinite;
+  
+  @keyframes #{$name} {
+    0%, 100% {
+      transform: translateY(0);
+      opacity: 0.2;
+    }
+    50% {
+      transform: translateY(-#{$distance});
+      opacity: 0.4;
+    }
+  }
+}
+
+// Shadow Mixins
+@mixin card-shadow($hover: false) {
+  @if $hover {
+    box-shadow: 0 8px 25px rgba(107, 76, 154, 0.2);
+  } @else {
+    box-shadow: 0 4px 15px rgba(107, 76, 154, 0.1);
+  }
+}
