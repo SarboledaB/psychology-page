@@ -1,5 +1,7 @@
 import styles from './Services.module.scss'
 import service1 from '../assets/service1.png'
+import service2 from '../assets/service2.png'
+import service3 from '../assets/service3.png'
 
 function Services() {
   return (
@@ -29,7 +31,7 @@ function Services() {
 
           <div className={styles.serviceCard}>
             <div className={styles.illustrationBox}>
-              <img src={service1} alt="Servicio 1" style={{ width: '100%', height: 'auto', display: 'block' }} />
+              <img src={service2} alt="Servicio 2" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <h3 className={styles.cardTitle}>Terapia Virtual</h3>
             <p className={styles.cardDescription}>
@@ -39,7 +41,7 @@ function Services() {
 
           <div className={styles.serviceCard}>
             <div className={styles.illustrationBox}>
-              <img src={service1} alt="Servicio 1" style={{ width: '100%', height: 'auto', display: 'block' }} />
+              <img src={service3} alt="Servicio 3" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <h3 className={styles.cardTitle}>Acompañamiento deportivo</h3>
             <p className={styles.cardDescription}>

@@ -14,12 +14,11 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
   gap: 2rem;
 
   @include tablet {
-    grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 }
@@ -40,6 +39,7 @@
   }
 
   @include mobile {
+    width: 30%;
     padding: 1.5rem 1rem;
     flex-direction: column;
     text-align: center;
@@ -90,4 +90,7 @@
   margin: 0;
   color: $text-dark;
   font-family: $font-primary;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }

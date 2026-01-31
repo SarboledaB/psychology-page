@@ -9,3 +9,27 @@
   background: none;
   display: block;
 }
+
+.headerImage {
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .headerImageMobile {
+    display: none;
+  }
+  .headerImageDesktop {
+    display: block;
+    max-height: 25vh;
+  }
+}
+
+@media (max-width: 899px) {
+  .headerImageMobile {
+    display: block;
+  }
+  .headerImageDesktop {
+    display: none;
+  }
+}

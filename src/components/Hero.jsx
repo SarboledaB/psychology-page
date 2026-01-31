@@ -38,19 +38,13 @@ function Hero() {
             </div>
             
             <p className={styles.intro}>
-              <strong>Hola, soy Mariana Echeverri,</strong> psicóloga especializada en terapia cognitivo-conductual.
+              Hola, soy Mariana Echeverri Guerra, psicóloga cognitivo-conductual y estudiante de la maestría en Clínica Psicológica.
             </p>
-            
             <p className={styles.description}>
-              Mi objetivo es acompañarte en el proceso de superar tus dificultades emocionales, brindarte las herramientas que necesitas para mejorar tu bienestar y ayudarte a encontrar el equilibrio en tu vida.
+              Acompaño procesos de psicoterapia individual con jóvenes y adultos, brindando un espacio de bienestar emocional, escucha activa y compasión. Mi objetivo es acompañarte en el proceso de superar tus dificultades emocionales, construir las herramientas que necesitas para tu vida y generar una invitación constante a la reflexión y al autoconocimiento.
             </p>
-            
             <p className={styles.description}>
-              Si tienes alguna pregunta, deseas agendar una cita, o simplemente quieres conversar sobre cómo te puedo ayudar, no dudes en ponerte en contacto conmigo.
-            </p>
-            
-            <p className={styles.closing}>
-              Estoy aquí para escucharte y ayudarte en todo momento con profesionalismo y empatía.
+              Si tienes alguna pregunta, deseas agendar una cita o simplemente quieres conversar sobre cómo puedo ayudarte, no dudes en ponerte en contacto conmigo.
             </p>
           </div>
         </div>

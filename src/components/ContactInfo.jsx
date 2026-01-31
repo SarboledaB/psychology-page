@@ -38,7 +38,11 @@ function ContactInfo() {
           </div>
           <div className={styles.cardContent}>
             <h3 className={styles.cardTitle}>Consulta</h3>
-            <p className={styles.cardText}>Calle Paz 123, Valencia</p>
+            <p className={styles.cardText}>
+              <a href="https://www.google.com/maps/search/?api=1&query=Cra.+47+%2319Sur-28,+Envigado,+Antioquia" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                Cra. 47 #19Sur-28, <br />Envigado, Antioquia
+              </a>
+            </p>
           </div>
         </div>
       </div>
