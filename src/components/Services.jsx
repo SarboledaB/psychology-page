@@ -45,7 +45,7 @@ function Services() {
             </div>
             <h3 className={styles.cardTitle}>Acompañamiento deportivo</h3>
             <p className={styles.cardDescription}>
-              Atención personalizada para ayudarte a mejorar tu bienestar y tu salud física.
+              Atención personalizada en deportistas de alto rendimiento.
             </p>
           </div>
         </div>

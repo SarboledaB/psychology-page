@@ -1,5 +1,6 @@
 import React from 'react';
 import imagen from '../assets/imagen.png';
+import profileImage from '../assets/profile.jpg';
 import styles from './Hero.module.scss'
 
 function Hero() {
@@ -33,7 +34,7 @@ function Hero() {
           <div className={styles.textContent}>
             <div className={styles.profileImageWrapper}>
               <div className={styles.profileImage}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_8qN8Q5umS7TezGHetgD_dRRa7OW14cCAMw&s" alt="foto perfil" />
+                <img src={profileImage} alt="foto perfil" />
               </div>
             </div>
             

@@ -11,8 +11,10 @@ function ContactInfo() {
             </svg>
           </div>
           <div className={styles.cardContent}>
-            <h3 className={styles.cardTitle}>Teléfono</h3>
-            <p className={styles.cardText}>+57 314 798 5604</p>
+            <h3 className={styles.cardTitle}>Whatsapp</h3>
+              <a href="https://wa.me/573147985604" target="_blank" rel="noopener noreferrer"  className={styles.cardText}>
+                +57 314 798 5604
+              </a>
           </div>
         </div>
 
@@ -39,8 +41,8 @@ function ContactInfo() {
           <div className={styles.cardContent}>
             <h3 className={styles.cardTitle}>Consulta</h3>
             <p className={styles.cardText}>
-              <a href="https://www.google.com/maps/search/?api=1&query=Cra.+47+%2319Sur-28,+Envigado,+Antioquia" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
-                Cra. 47 #19Sur-28, <br />Envigado, Antioquia
+              <a href="https://www.google.com/maps/search/?api=1&query=Siendo+con+otros" target="_blank" rel="noopener noreferrer" className={styles.cardText}>
+                Cra. 47 #19 Sur - 28, <br />Zona 2, Envigado, Antioquia
               </a>
             </p>
           </div>
