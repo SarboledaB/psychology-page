@@ -25,7 +25,7 @@ function Services() {
             </div>
             <h3 className={styles.cardTitle}>Terapia Presencial</h3>
             <p className={styles.cardDescription}>
-              Atención personalizada para ayudarte a enfrentar tus dificultades emocionales y mejorar tu bienestar.
+              Sesiones presenciales en Envigado, Antioquia para jóvenes y adultos. Procesos terapéuticos basados en la empatía, ofreciendo un espacio seguro para la reflexión profunda a través de preguntas y herramientas funcionales. Abordamos todas las dimensiones de tu ser con calidez y confrontación terapéutica para compartir tus vivencias, pensamientos y emociones.
             </p>
           </div>
 
@@ -35,7 +35,7 @@ function Services() {
             </div>
             <h3 className={styles.cardTitle}>Terapia Virtual</h3>
             <p className={styles.cardDescription}>
-              Atención personalizada via online para ayudarte a enfrentar tus dificultades emocionales y mejorar tu bienestar.
+              Sesiones virtuales a través de Google Meet para jóvenes y adultos en todo el mundo. Procesos terapéuticos basados en la empatía, ofreciendo un espacio seguro para la reflexión profunda a través de preguntas y herramientas funcionales. Abordamos todas las dimensiones de tu ser con calidez y confrontación terapéutica para compartir tus vivencias, pensamientos y emociones.
             </p>
           </div>
 
@@ -45,7 +45,7 @@ function Services() {
             </div>
             <h3 className={styles.cardTitle}>Acompañamiento deportivo</h3>
             <p className={styles.cardDescription}>
-              Atención personalizada en deportistas de alto rendimiento.
+              Acompañamiento psicológico especializado para deportistas de alto rendimiento en deportes de combate. Trabajo individual enfocado en desarrollar autoconfianza, manejar presión, superar el miedo a perder, mejorar concentración y preparación mental para entrenamientos y competencias. Orientado a potenciar el bienestar integral del deportista.
             </p>
           </div>
         </div>
