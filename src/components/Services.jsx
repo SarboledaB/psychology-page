@@ -25,7 +25,7 @@ function Services() {
             </div>
             <h3 className={styles.cardTitle}>Terapia Presencial</h3>
             <p className={styles.cardDescription}>
-              Sesiones presenciales en Envigado, Antioquia para jóvenes y adultos. Procesos terapéuticos basados en la empatía, ofreciendo un espacio seguro para la reflexión profunda a través de preguntas y herramientas funcionales. Abordamos todas las dimensiones de tu ser con calidez y confrontación terapéutica para compartir tus vivencias, pensamientos y emociones.
+              Sesiones 1:1 en Envigado- Antioquia, para jóvenes y adultos, procesos terapéuticos llevados desde la empatía, ofreciendo un espacio de reflexión profunda a través de preguntas y herramientas funcionales para ti, entendiendo todas las dimensiones que componen tu ser. Encontrarás calidez y confrontación desde un lugar seguro para compartir tus vivencias, pensamientos y emociones.
             </p>
           </div>
 
@@ -35,7 +35,7 @@ function Services() {
             </div>
             <h3 className={styles.cardTitle}>Terapia Virtual</h3>
             <p className={styles.cardDescription}>
-              Sesiones virtuales a través de Google Meet para jóvenes y adultos en todo el mundo. Procesos terapéuticos basados en la empatía, ofreciendo un espacio seguro para la reflexión profunda a través de preguntas y herramientas funcionales. Abordamos todas las dimensiones de tu ser con calidez y confrontación terapéutica para compartir tus vivencias, pensamientos y emociones.
+              Sesiones 1:1 a través de Google meet, apto para jóvenes y adultos en todo el mundo, procesos terapéuticos llevados desde la empatía, ofreciendo un espacio de reflexión profunda a través de preguntas y herramientas funcionales para ti, entendiendo todas las dimensiones que componen tu ser. Encontrarás calidez, confrontación, y un lugar seguro para compartir tus vivencias, pensamientos y emociones.
             </p>
           </div>
 
@@ -45,7 +45,7 @@ function Services() {
             </div>
             <h3 className={styles.cardTitle}>Acompañamiento deportivo</h3>
             <p className={styles.cardDescription}>
-              Acompañamiento psicológico especializado para deportistas de alto rendimiento en deportes de combate. Trabajo individual enfocado en desarrollar autoconfianza, manejar presión, superar el miedo a perder, mejorar concentración y preparación mental para entrenamientos y competencias. Orientado a potenciar el bienestar integral del deportista.
+              Acompañamiento psicológico a deportistas de alto rendimiento en deportes de combate, mediante un trabajo individual enfocado en la autoconfianza, presión, miedo a perder, concentración y preparación mental para entrenamientos y competencias. Enfocado a mejorar el bienestar del deportista.
             </p>
           </div>
         </div>

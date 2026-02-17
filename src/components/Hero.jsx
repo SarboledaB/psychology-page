@@ -21,7 +21,12 @@ function Hero() {
       <div className={styles.container}>
         <div className={styles.leftColumn}>
           <div className={styles.illustrationWrapper}>
-            <img src={imagen} className={styles.illustration} alt="Ilustración de psicología" />
+            <img 
+              src={imagen} 
+              className={styles.illustration} 
+              alt="Ilustración de psicología"
+              fetchpriority="high"
+            />
           </div>
           <div className={styles.floatingHearts}>
             <div className={styles.heart}></div>
@@ -34,7 +39,11 @@ function Hero() {
           <div className={styles.textContent}>
             <div className={styles.profileImageWrapper}>
               <div className={styles.profileImage}>
-                <img src={profileImage} alt="foto perfil" />
+                <img 
+                  src={profileImage} 
+                  alt="foto perfil"
+                  fetchpriority="high"
+                />
               </div>
             </div>
             
