@@ -21,7 +21,12 @@ function Services() {
         <div className={styles.cardsGrid}>
           <div className={styles.serviceCard}>
             <div className={styles.illustrationBox}>
-              <img src={service1} alt="Servicio 1" style={{ width: '100%', height: 'auto', display: 'block' }} />
+              <img 
+                src={service1} 
+                alt="Servicio 1" 
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                fetchpriority="high"
+              />
             </div>
             <h3 className={styles.cardTitle}>Terapia Presencial</h3>
             <p className={styles.cardDescription}>
@@ -31,7 +36,12 @@ function Services() {
 
           <div className={styles.serviceCard}>
             <div className={styles.illustrationBox}>
-              <img src={service2} alt="Servicio 2" style={{ width: '100%', height: 'auto', display: 'block' }} />
+              <img 
+                src={service2} 
+                alt="Servicio 2" 
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                fetchpriority="high"
+              />
             </div>
             <h3 className={styles.cardTitle}>Terapia Virtual</h3>
             <p className={styles.cardDescription}>
@@ -41,7 +51,12 @@ function Services() {
 
           <div className={styles.serviceCard}>
             <div className={styles.illustrationBox}>
-              <img src={service3} alt="Servicio 3" style={{ width: '100%', height: 'auto', display: 'block' }} />
+              <img 
+                src={service3} 
+                alt="Servicio 3" 
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                fetchpriority="high"
+              />
             </div>
             <h3 className={styles.cardTitle}>Acompañamiento deportivo</h3>
             <p className={styles.cardDescription}>
