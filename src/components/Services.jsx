@@ -1,7 +1,7 @@
 import styles from './Services.module.scss'
-import service1 from '../assets/service1.png'
-import service2 from '../assets/service2.png'
-import service3 from '../assets/service3.png'
+import service1 from '../assets/service1.webp'
+import service2 from '../assets/service2.webp'
+import service3 from '../assets/service3.webp'
 
 function Services() {
   return (
