@@ -25,7 +25,6 @@ function Services() {
                 src={service1} 
                 alt="Servicio 1" 
                 style={{ width: '100%', height: 'auto', display: 'block' }}
-                fetchpriority="high"
               />
             </div>
             <h3 className={styles.cardTitle}>Terapia Presencial</h3>
@@ -40,7 +39,6 @@ function Services() {
                 src={service2} 
                 alt="Servicio 2" 
                 style={{ width: '100%', height: 'auto', display: 'block' }}
-                fetchpriority="high"
               />
             </div>
             <h3 className={styles.cardTitle}>Terapia Virtual</h3>
@@ -55,7 +53,6 @@ function Services() {
                 src={service3} 
                 alt="Servicio 3" 
                 style={{ width: '100%', height: 'auto', display: 'block' }}
-                fetchpriority="high"
               />
             </div>
             <h3 className={styles.cardTitle}>Acompañamiento deportivo</h3>
