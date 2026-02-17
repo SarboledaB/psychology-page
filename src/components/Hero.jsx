@@ -25,7 +25,6 @@ function Hero() {
               src={imagen} 
               className={styles.illustration} 
               alt="Ilustración de psicología"
-              fetchpriority="high"
             />
           </div>
           <div className={styles.floatingHearts}>
@@ -42,7 +41,6 @@ function Hero() {
                 <img 
                   src={profileImage} 
                   alt="foto perfil"
-                  fetchpriority="high"
                 />
               </div>
             </div>

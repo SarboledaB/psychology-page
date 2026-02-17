@@ -9,13 +9,11 @@ function Header() {
         src={headerImg} 
         alt="Header mobile" 
         className={styles.headerImage + ' ' + styles.headerImageMobile}
-        fetchpriority="high"
       />
       <img 
         src={headerDesktop} 
         alt="Header desktop" 
         className={styles.headerImage + ' ' + styles.headerImageDesktop}
-        fetchpriority="high"
       />
     </header>
   )
